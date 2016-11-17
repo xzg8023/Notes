@@ -7,3 +7,6 @@ https://zhuanlan.zhihu.com/p/23102158
 
 Androidndk开发打包时我们应该如何注意平台的兼容（x86,arm,arm-v7a）
 http://www.it165.net/embed/html/201410/2707.html
+
+与 .so 有关的一个长年大坑
+https://zhuanlan.zhihu.com/p/21359984
