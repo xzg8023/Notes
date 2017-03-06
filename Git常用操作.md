@@ -361,3 +361,14 @@ remote name from which new revisions should be fetched.
 
 > 更换上边的url和pushurl即可
 
++ 中文显示问题
+
+         git config --global core.quotepath false
+
+> core.quotepath设为false的话，就不会对0x80以上的字符进行quote。中文显示正常,
+.gitconfig（C:\Users\admin\.gitconfig）文件增加了以下配置信息：
+
+```
+[core]
+	quotepath = false
+```
