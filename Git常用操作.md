@@ -458,3 +458,38 @@ git config user.name "your_name"
 git config user.email "your_email"
 ```
 + AndroidStudio中会提示输入对应的用户信息
+
+
+
+
++ git stash   
+        备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。
++ git stash pop
+        从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
++ git stash list
+        显示Git栈内的所有备份，可以利用这个列表来决定从那个地方恢复。
++ git stash apply stash@{1}
+        指定版本号为stash@{1}的工作取出来。
++ git stash clear 
+        清空Git栈。此时使用gitg等图形化工具会发现，原来stash的哪些节点都消失了。
++ git push origin <localBranchName>:<remoteBranchName>
+        把本地分支直接push到远程分支，该指令会创建远程remoteBranchName分支
+
++ git reset –mixed 
+        此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息
++ git reset –soft
+        回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可
++  git reset –hard
+        彻底回退到某个版本，本地的源码也会变为上一个版本的内容
++ git reset HEAD^
+        //回退所有内容到上一个版本
++ git reset HEAD^ <fileName>
+        //回退a.py这个文件的版本到上一个版本
++ git reset –soft HEAD~<number>
+        //向前回退到第number个版本
++ git reset –hard origin/master
+        //将本地的状态回退到和远程的一样
++ git reset 057d
+        //回退到某个版本
++ git revert HEAD
+        //回退到上一次提交的状态，按照某一次的commit完全反向的进行一次commit
