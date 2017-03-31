@@ -3,6 +3,11 @@
 1. [学习资料收集] (https://github.com/Freelander/Android_Data "学习资料收集")
 
 
-1.gi忽略文件相关
+1. gi忽略文件相关
 
 https://segmentfault.com/q/1010000000430426
+
+1. [Android 开发工程师面试指南] (https://www.diycode.cc/wiki/androidinterview)
+
+2. 安卓博客周刊
+http://www.androidblog.cn/
