@@ -8,12 +8,3 @@
 
 https://segmentfault.com/q/1010000000430426
 
-
-这是正确的代码
-
-AAAAAAAAAAAAAAA
-
-
-
-CCCCCCCCCCCCCCC
-
