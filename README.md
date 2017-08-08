@@ -19,3 +19,23 @@ https://toutiao.io/posts/8lqbud/preview
 
 折叠菜单
 Android中ExpandableListView
+
++ JSBride相关资料
+
+http://www.infoq.com/cn/news/2014/07/mobile-taobao-web-technology
+InfoQ：在Web页面中不可避免的会调用一些Native的功能，手机淘宝是如何实现的？
+
+http://blog.aaapei.com/article/2013/12/wei-xin-de-jsbridgeshi-xian
+http://qzs.qq.com/open/mobile/jsbridge/demo.htm
+http://stackoverflow.com/questions/7544671/how-to-call-javascript-from-android/7544818#7544818
+
+OC:
+http://www.cnblogs.com/codeApp/archive/2012/11/15/2771876.html
+https://github.com/marcuswestin/WebViewJavascriptBridge
+http://honglu.me/2014/09/27/WebViewJavascriptBridge%E4%BD%BF%E7%94%A8/
+
+https://components.xamarin.com/view/jsbridge
+
+
+android：
+https://github.com/lzyzsd/JsBridge
