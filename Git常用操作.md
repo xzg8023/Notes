@@ -62,6 +62,19 @@
           1 file changed, 1 insertion(+)
           create mode 100644 README.md
 
+
+>如果提交项的日志使用的是git commit 命令，则会进入编辑器界面，相关的退出保存编辑命令是：
+点击Esc按键，退出Insert状态，在英文情况下，点击Shift +;输入相关指令
+
+>:q 系统退出Vi返回到shell。若在用此命令退出Vi时，编辑文件没有被保存，则Vi在显示窗口的最末行显示如下信息：
+No write since last change (use ! to overrides)
+提示用户该文件被修改后没有保存，然后Vi并不退出，继续等待用户命令。若用户就是不想保存被修改后的文件而要强行退出Vi时，可使用命令
+
+>:q!  Vi放弃所作修改而直接退到shell下。
+
+>:wq  Vi将先保存文件，然后退出Vi返回到shell。
+
+
 git commit -m "此处是提交的日志信息"
 
 ##### 5\. git log————查看提交日志
@@ -344,7 +357,7 @@ remote name from which new revisions should be fetched.
 > 
 ```
 [core]
-	repositoryformatversion = 0
+    repositoryformatversion = 0
 	filemode = false
 	bare = false
 	logallrefupdates = true
